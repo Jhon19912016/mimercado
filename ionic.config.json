@@ -1,0 +1,7 @@
+{
+  "name": "mimercado",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Mi lista de compras
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://ve.emedemujer.com/wp-content/uploads/sites/2/2014/10/comer-papas.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Papa</h2>
+        <h3>$400 LB</h3>
+        <p>Prueba en tiendas Ekocampo</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://dam.cocinafacil.com.mx/wp-content/uploads/2019/06/Leche-descremada-3.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Leche Parmalat</h2>
+        <h3>$2500 Lt</h3>
+        <p>Coratiendas tiene una oferta inigualable</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.recetasderechupete.com/wp-content/uploads/2018/01/Pan-casero-f%C3%A1cil-525x360.jpg">
+      </ion-avatar>
+      <ion-label>
+        <h2>Pan Bimbo</h2>
+        <h3>$2100</h3>
+        <p>Tiedas Ara ofrece el mejor precio</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
